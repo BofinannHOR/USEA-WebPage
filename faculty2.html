@@ -1,0 +1,579 @@
+<html>
+<title>
+</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<style>
+		.main{
+			height: 1700px;
+			border: none;
+			width: 100%;
+			}
+	                    .wrap{
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: white;
+            width: 100%;
+            border-style: none;
+            height: 175px;
+
+
+        }
+        .wrap-search{
+            float: right;
+            border: none;
+            width: 30%;
+            height: 174px;
+        }
+        .university-logo{
+            width: 10%;
+            height: 174px;
+            border: none;
+            float: left;
+            border-radius: 80% ;
+            margin-left: 10px;
+            
+        }
+        .usea-heading{
+            float: left;
+            width: 50%;
+            height: 120px;
+            border: none;
+            padding-left: 2%;
+            padding-top: 3%;
+        }
+        .usea-heading-1{
+            color:#1A237E; 
+            font-family: arial;
+            font-size: 30px;
+            font-weight: bolder;
+            letter-spacing: 7px;
+            
+        }
+        .usea-heading-2{
+            color:#1A237E;
+            font-family: arial;
+            font-size: 16px;
+            font-weight: bolder;
+            letter-spacing: 2px;
+        }
+    .navbar {
+    font-family: Arial;
+  	width: 100%;  
+	border-style: none;
+	overflow: hidden;
+	background-color: #333;
+    letter-spacing: 2px;
+    height: 50px
+}
+
+.navbar a {
+ 
+  float: left;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+          
+}
+
+.dropdown .dropbtn {
+ 
+  font-size: 18px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+    margin-left: 4px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    #apply{
+        background: red;
+    }
+    #apply:hover{
+        background: black;
+        
+    }
+
+           .ctn3{
+            background-color: yellow;
+            width: 100%;
+            height: 700px;
+            border-style: solid;
+        }
+            .ctn4{
+            padding-top: 10px;    
+            background-color: white;
+            width: 100%;
+            height: 350px;
+            border-style: solid;
+        }
+            .ctn5{
+            background-color: rosybrown;
+            width: 100%;
+            height: 600px;
+            border-style: solid;
+        }
+           .ctn6{
+            background-color: rosybrown;
+            width: 100%;
+            height: 600px;
+            border-style: solid;
+        }
+        
+            .ctn7{
+            background-color: black;
+            width: 100%;
+            height: 700px;
+            border-style: solid;
+        }
+        /*For header*/
+        .search {
+  margin-right: 10px;    
+  margin-top: 20px;
+  float: right;
+  width: 300px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width:300px ;
+  border: 2px solid #00B4CC;
+  border-right: none;
+  padding: 8px;
+  height: 35.9px;
+  border-radius: 20px 0 0 20px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 17px 17px 0;
+  cursor: pointer;
+  font-size: 20px;
+}							
+	
+		}
+		.nav1{
+			height: 50px;
+			background: blue;
+			width: 100%;
+		}
+									.center{
+			height: 1000px;
+			width: 100%;
+		
+		}
+									.sidebar{
+			width: 25%;
+			height: 940px;
+			float: left;
+			display: flex;
+			position: relative;
+			font-family: Arial;
+			margin-right: 10px;	
+									
+}
+.sidebar .sidebar1{
+	position: absolute;
+	height: 940px;
+	background: #D9D9E7;
+	padding: 30px; 0;
+}
+.sidebar .sidebar1 h2{
+	color: #3E3E57;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-weight: bold;
+
+	
+}
+.sidebar .sidebar1 ul li{
+	padding: 15px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+	border-top: 1px solid rgba(225,225,225,0.05);
+	font-size: 17px;
+}
+.sidebar .sidebar1 ul li a{
+	color: #3E3E57;
+}
+.sidebar .sidebar1 ul li:hover{
+	background: #C3C3C8;
+}
+.sidebar .sidebar1 ul li:hover{
+	color: #C3C3C8;
+}
+							.content1{
+			width: 100%;
+			background-color: none;
+			height: 1000px;
+		
+		}
+		.head{
+			border: 2px solid white;
+			width: 100%;
+			height: 150px;
+			font-size: 17px;
+			line-height: 2em;
+			text-indent: 20px;
+			box-sizing: content-box;
+			font-family: Arial;
+		}
+		a.t0{
+			font-size: 25px;
+			color: #2D64C6;
+		}
+		.information{
+			font-family: Arial;
+			box-sizing: content-box;
+			text-indent: 20px;
+			margin-top: 50px;
+			font-size: 20px;
+			color: #2D64C6;
+			
+		}
+		
+
+	
+		
+	table {
+  		border-collapse: collapse;
+  		width: 74%;
+		font-family: Arial;
+		margin-top: 50px;
+		box-sizing: content-box;
+		
+		
+
+}
+
+		th, td {
+  		text-align: left;
+		border: 2px solid white;
+
+	
+ 
+}
+		th{
+			height: 50px;
+			font-size: 25px;
+		}
+		td{
+			height: 40px;
+			font-size: 17px;
+	
+			
+		}
+		a.t1:visited, a.t1:link{
+			text-decoration: none;
+			color: blue;
+	
+			
+		
+		}
+		
+		a.t1:hover, a.t1:active{
+			
+			text-decoration: underline;
+	
+		}
+			
+			
+		
+		/*footer*/
+		
+							.container6{
+    width: 100%;
+    background: #00121b;
+    display: block;
+    border: none;
+    font-family: Arial;
+    height: 500px;
+	
+
+    
+}
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+        
+}
+.footer-items {
+    width: 25%;
+    padding: 10px 20px;
+}
+h1{
+    padding: 10px 0;
+    font-size: 30px;
+    color: burlywood;
+    text-transform: uppercase;
+    
+}
+.footer-items p{
+    color: grey;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+h2{
+    margin: 10px 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.border{
+    height: 2px;
+    widows: 40px;
+    background: #ff9800;
+}
+ul{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+
+ul a{
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    transition: 0.3s;
+}
+ul a:hover{
+    color: #ff9800;
+}
+ul i{
+    margin: 10px 0;
+    height: 25px;
+}
+li i{
+    margin-right: 20px;
+}
+    
+
+	</style>
+<head>
+</head>
+<body>
+									<div class="main">
+								<div class="wrap">
+		<div class="university-logo" style="background-image: url(LOGO%20UPDATE%20.png); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+     <div class="usea-heading">
+     <h class="usea-heading-1">UNIVERSITY OF SOUTH-EAST ASIA</h>
+        <br>
+          <div class="line" style="border: solid 1px; width: 60%; margin-top: 5px; color: #1A237E;"></div>
+         <br>
+     <h class="usea-heading-2" >Universal  Skill  Excellence  Attitude</h>
+         <div class="line" style="border: solid 0.1px; width: 5%; margin-top: 5px; color: #1A237E;"></div>
+     </div>					
+									
+									
+	  <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     	</button>
+		</div>								
+		 
+</div>
+
+									<div class="nav1">
+			 <div class="navbar">
+    
+  <div class="dropdown">
+  <a href="#">Home</a>
+  </div> 
+    
+      <div class="dropdown">
+    <button class="dropbtn" style="  letter-spacing: 2px;">Faculties 
+  </button>
+    <div class="dropdown-content">
+     <a href="faculty1.html">Faculty</a>
+      </div>
+  </div> 
+
+     <div class="dropdown">
+    <button class="dropbtn" style="  letter-spacing: 2px;">Scholarship 
+  </button>
+    <div class="dropdown-content">
+    <a href="#">USEA Scholarship</a>
+    <a href="#">MEXT Scholarship</a>
+    <a href="#">She Can Scholarship</a>
+    <a href="#">USA Scholarship</a>  
+      </div>
+  </div> 
+    
+      <div class="dropdown">
+ <a href="#">Event</a>
+    <div class="dropdown-content">
+         
+      </div>
+  </div> 
+          <div class="dropdown" style="float: right; " >
+ <a href="#" id="apply">Apply Now</a>
+    <div class="dropdown-content">
+         
+      </div>
+  </div> 
+         <div class="dropdown" style="float: right;">
+    <button class="dropbtn" style="  letter-spacing: 2px;">About
+  </button>
+    <div class="dropdown-content" style="right: 0;">
+            <a href="#">Who We are</a>
+            <a href="#">Vision Mission and Core Value</a>
+            <a href="#">Partnership</a>
+      </div>
+  </div> 
+        
+
+    </div>
+		</div>
+										<div class="center">
+			<div class="sidebar">
+				<div class="sidebar1">
+					<h2>Our Program</h2>
+			<ul>
+		<li><a href="faculty1.html" target="_self">Faculties of Economics, business and Tourism</a></li>
+		<li><a href="faculty2.html" target="_self">Faculties of Art, humantites and Education</a></li>
+		<li><a href="faculty3.html" target="_self">Faculties of Scienes and Technology</a></li>
+		<li><a href="faculty4.html" target="_self">Faculties of Social science and Laws</a></li>
+		</ul>
+					</div>
+			</div>
+			<div class="content1">
+				<div class="head">
+				 
+				 
+					<h3><a class="t0">VISION</a></h3>
+			<p>			This program is designed to provide students with knowledge, skills, hardware skills, software skills and good attitude to use Khmer literature knowledge to build new knowledge and develop Khmer literary skills.</p>
+				
+				</div>				
+				<div class="information">
+				
+				<h3>FACULTIES LISTING</h3>
+
+<table>
+  <tr>
+	  	
+    	<th>Bachelor's Degree</th>
+  	
+  </tr>
+  <tr>
+	  <td><a class="t1" href="Bachelor%20of%20Khmer%20Literaturef2b1.html">Khmer Literature</a></td>
+	  <td></td>
+	  <td></td>
+	
+  </tr>
+
+</table>
+
+	<td><a class="t1" href="#"></a></td>			
+				
+	</div>							
+											
+		</div>
+									<div class="container6">
+        <div class="inner-footer">
+        <div class="footer-items">
+            <h1>USEA</h1>
+            <p>
+            The University of South-East Asia was established on July 7, 2006 by four dedicated Cambodian shareholders in response to the government educational development program.
+            </p>
+            </div>
+        <div class="footer-items">
+            <h2>Quick Links</h2>
+            <div class="border"></div>
+                <ul>
+                    <a href=""><li>HOME</li></a>
+                    <a href=""><li>FACUTLY</li></a>
+                    <a href=""><li>SCHOOLARSHIP</li></a>
+                    <a href=""><li>STUDENTS</li></a>
+                    <a href=""><li>ABOUT</li></a>
+                    </ul>
+            </div>
+            <div class="footer-items">
+            <h2>LEARN MORE</h2>
+            <div class="border"></div>
+                <ul>
+                    <a href=""><li>EVENT</li></a>
+                    <a href=""><li>INFORM</li></a>
+                    <a href=""><li>AMERICAN CORNER</li></a>
+                    <a href=""><li>OUR LAWS</li></a>
+                    </ul>
+            </div>
+              <div class="footer-items">
+            <h2>CONTACT US</h2>
+            <div class="border"></div>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Sangkat Salakamreok, Siem Reap</li> 
+                    <li><i class="fa fa-chrome" aria-hidden="true"></i>USEA.EDU.KH</li>  
+                    <li><i class="fa fa-phone" aria-hidden="true">Call: 017 386 678</i></li></ul>
+  
+            </div>
+        </div>
+    </div>
+			
+			
+										</div>
+	</div>
+	
+</body>
+</html>
